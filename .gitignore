@@ -1,0 +1,39 @@
+# Binary
+mcp-terminator
+
+D*.md
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug
+*.prof
+*.pprof
+__debug_bin*
+
+# Coverage
+coverage.out
+coverage.html
+
+# Env
+.env
+.env.local

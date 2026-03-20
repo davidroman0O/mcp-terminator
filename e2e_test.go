@@ -3,7 +3,7 @@
 // These tests exercise the full pipeline: session creation with real PTY
 // processes, the background read loop, the ANSI parser, the detection
 // pipeline, and the snapshot/wait infrastructure. No mocks.
-package mcpterminator_test
+package main_test
 
 import (
 	"strings"

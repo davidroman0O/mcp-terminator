@@ -26,7 +26,7 @@ Instead of raw terminal text, your AI agent gets a **Terminal State Tree** — b
 ## Install
 
 ```bash
-go install github.com/davidroman0O/mcp-terminator/cmd/mcp-terminator@latest
+go install github.com/davidroman0O/mcp-terminator@latest
 ```
 
 Or build from source:
@@ -34,7 +34,7 @@ Or build from source:
 ```bash
 git clone https://github.com/davidroman0O/mcp-terminator.git
 cd mcp-terminator
-go build -o mcp-terminator ./cmd/mcp-terminator/
+go build -o mcp-terminator .
 ```
 
 ## Configure
@@ -202,7 +202,7 @@ The `terminal_press_key` tool accepts human-readable key names:
 
 ```
 mcp-terminator/
-├── cmd/mcp-terminator/    Entry point (stdio MCP server)
+├── main.go                Entry point (stdio MCP server)
 ├── core/                  Foundation types (Cell, Element, Key, Session, Error)
 ├── emulator/              Terminal emulation (Grid, ANSI parser, PTY)
 ├── detector/              UI element detection (8 detectors + pipeline)
